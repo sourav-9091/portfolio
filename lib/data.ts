@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import bugFlow from "@/public/bugFlow.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -46,11 +46,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Issue traker",
+    title: "BugFlow",
     description:
       "I worked as a full-stack developer on this project. Here Users can track there Issues with a Clean UI",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Radix UI"],
-    imageUrl: corpcommentImg,
+    imageUrl: bugFlow,
   },
   {
     title: "BLogly",
@@ -60,7 +60,7 @@ export const projectsData = [
     imageUrl: rmtdevImg,
   },
   {
-    title: "BLogly",
+    title: "CloudCart",
     description:
       "App To Create Blogs with simple and minimilist UI with proper State Management",
     tags: ["Dart", "Flutter", "BLoC", "Supabase", "Git"],
